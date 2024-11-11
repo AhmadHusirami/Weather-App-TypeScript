@@ -1,5 +1,5 @@
 # :sunny: Weather App
-Simple weather app that utilizes geocoding and weather APIs provided by [Open Meteo](https://open-meteo.com/). Icons used in this project were made by Bora DAN and can be found [here](https://dribbble.com/shots/2531876-Weather-Icons-sketch).  
+Simple weather app that utilizes geocoding and weather APIs provided by [Open Meteo](https://open-meteo.com/). Developed And Desgined by Ahmad Said Husirami [here](https://ahmad-husirami.vercel.app/).  
 
 
 The project were made in React and utilizes zod, react-query and styled-components libraries. You can change units, search places or allow the app to find your localization. The app shows local time of selected localization, and detects night time. 
