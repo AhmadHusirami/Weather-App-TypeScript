@@ -7,4 +7,4 @@ The project were made in React and utilizes zod, react-query and styled-componen
 
 Click [here](https://weather-app-husirami.vercel.app/) to checkout the project. 
 ## Preview:
-![weatherAppScreen](https://user-images.githubusercontent.com/79405091/211372049-041d5837-fb3b-41aa-a3c6-30acb823069c.png)
+![weatherAppScreen](/public/screenshot-website.png)
