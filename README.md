@@ -5,6 +5,6 @@ Simple weather app that utilizes geocoding and weather APIs provided by [Open Me
 The project were made in React and utilizes zod, react-query and styled-components libraries. You can change units, search places or allow the app to find your localization. The app shows local time of selected localization, and detects night time. 
 
 
-Click [here](https://kamilkazor.github.io/weather_app/) to checkout the project. 
+Click [here](https://weather-app-husirami.vercel.app/) to checkout the project. 
 ## Preview:
 ![weatherAppScreen](https://user-images.githubusercontent.com/79405091/211372049-041d5837-fb3b-41aa-a3c6-30acb823069c.png)
