@@ -1,0 +1,80 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #4e4e4e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(51, 100%, 50%);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(51, 100%, 40%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  --primaryColor: #000000;
+  --primaryDarkerColor: RGB(255, 214, 0);
+  --complementaryColor: #e7ad00;
+  text-shadow: 0 0 5px hsla(0, 0%, 0%, 0.5);
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-image: linear-gradient(135deg, var(--primaryColor), var(--primaryDarkerColor));
+}
+
+button {
+  text-shadow: 0 0 5px hsla(0, 0%, 0%, 0.5);
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  color: hsla(0, 0%, 100%);
+}
+
+.footer a {
+  color: var(--complementaryColor);
+}

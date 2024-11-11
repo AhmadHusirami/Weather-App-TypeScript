@@ -1,0 +1,28 @@
+.bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .row {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  
+  .buttons {
+    display: flex;
+    font-size: 1.5rem;
+    padding: 9px 0;
+    box-sizing: border-box;
+  }
+  
+  .buttons button {
+    padding: 0 0.5rem;
+    transition: color 250ms;
+  }
+  
+  @media (hover: hover) {
+    .buttons button:hover {
+      color: var(--complementaryColor);
+    }
+  }
+  

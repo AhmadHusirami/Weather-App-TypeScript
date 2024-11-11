@@ -1,0 +1,36 @@
+.footer {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: #e7ad00;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footer {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer p {
+        font-size: 12px;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+}
